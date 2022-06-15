@@ -10,6 +10,8 @@
 .image-ilustration {
     width: 568px;
     height: 500px;
+    margin-left: 125px;
+    display: inline-block;
 }
 
 header {
@@ -38,4 +40,47 @@ header > button {
     font-size: 24px;
     line-height: 29px;
     cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+section > button {
+    background: #ADFF00;
+    border-radius: 30px;
+    border: none;
+    width: 239px;
+    height: 64px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
 }
