@@ -84,3 +84,24 @@ section > button {
     line-height: 34px;
     color: #000000;
 }
+
+@media (max-width: 900px) {
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        width: 568px;
+        height: 500px;
+    }
+
+    section {
+        width: 568px;
+        height: 500px;
+    }
+
+}
