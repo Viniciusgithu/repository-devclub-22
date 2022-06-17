@@ -85,7 +85,7 @@ section > button {
     color: #000000;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 800px) {
     header {
         display: none;
     }
@@ -94,14 +94,11 @@ section > button {
         display: none;
     }
 
-    img {
-        width: 568px;
-        height: 500px;
-    }
-
-    section {
-        width: 568px;
-        height: 500px;
+    .container {
+        display: flex;
+        min-width: 800px;
+        flex-direction: column;
+        justify-content: center;
     }
 
 }
